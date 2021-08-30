@@ -1,0 +1,116 @@
+.about-div{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.padding-div-about{
+    padding: 2em;
+}
+
+.aux-div-lpm{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border-radius: 4em;
+    padding: 3em;
+}
+
+.about-text{
+    padding: 1em;
+    font-family: 'Calibre Regular', sans-serif;
+    font-size: 22px;
+    display: flex;
+    color: #202125;
+}
+
+.about-text img{
+    width: 35%;
+    height: 35%;
+    -webkit-clip-path: polygon(9% 0, 0 100%, 94% 100%, 100% 0);
+    clip-path: polygon(9% 0, 0 100%, 94% 100%, 100% 0);
+}
+
+.about-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5em;
+}
+
+.about-img{
+    background-image: url('../../images/bgabout.png');
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+
+.content {
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #202125;
+}
+.content__container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+
+}
+.content__container:before {
+    content: '[';
+    left: 0;
+}
+
+.content__container:after {
+    content: ']';
+    position: absolute;
+    right: 0;
+}
+
+.content__container:after, .content__container:before {
+    position: absolute;
+    top: 0;
+    color: #ff5a00;
+    font-size: 42px;
+    line-height: 40px;
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+  
+@-webkit-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+  
+@-o-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+
+@-moz-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+
+@keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}

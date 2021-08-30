@@ -1,0 +1,244 @@
+.proyects-div{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/bgproy.png');
+    background-repeat: no-repeat;
+}
+
+.proyects-cont{
+    padding: 3em;
+    display: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.container-proy{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.container-proy > div{
+    width: calc(50vw/3);
+    height: 60vh;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.container-proy > div > h1{
+    transform: rotate(-90deg);
+    position: fixed;
+    transition: all 300ms ease-in-out;
+}
+
+.hidden-div{
+    padding: 1em;
+    padding-top: 12em;
+}
+
+.hidden-div > p{
+    color: transparent;
+}
+
+.link-icons{
+    color: transparent;
+    font-size: 2rem;
+}
+
+.link-icons a{
+    padding: 0.5em;
+    color: transparent;
+}
+
+.one{
+    background-color: #73cb00;
+    transition: 0.3s;
+}
+
+.two{
+    background-color: #ff5a00;
+    transition: 0.3s;
+}
+
+.three{
+    background-color: #3690d5;
+    transition: 0.3s;
+}
+
+.container-proy > .one:hover{
+    flex-grow: 4;
+    background-image: url('../../images/proy-1.png');
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.container-proy > .one:hover h1{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: #202125;
+}
+
+.container-proy > .one:hover p{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: #202125;
+}
+
+.container-proy > .one:hover .link-icons{
+    color: #202125;
+}
+
+.container-proy > .one:hover .link-icons a{
+    color: #202125;
+    padding: 1em;
+}
+
+.container-proy > .one:hover .link-icons a:hover{
+    color: #4d4f58;
+}
+
+.container-proy > .two:hover{
+    flex-grow: 4;
+    background-image: url('../../images/proy-2.png');
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.container-proy > .two:hover h1{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: black;
+}
+
+.container-proy > .two:hover p{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: #000000;
+    padding-top: 1em;
+}
+
+.container-proy > .two:hover .link-icons{
+    color: #000000;
+}
+
+.container-proy > .two:hover .link-icons a{
+    color: #000000;
+}
+
+.container-proy > .two:hover .link-icons a:hover{
+    color: #2d2e33;
+}
+
+
+.container-proy > .three:hover{
+    flex-grow: 4;
+    background-image: url('../../images/proy-3.png');
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.container-proy > .three:hover h1{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: #ffcb05;
+}
+
+.container-proy > .three:hover p{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    color: #202125;
+}
+
+.container-proy > .three:hover .link-icons{
+    color: #202125;
+}
+
+.container-proy > .three:hover .link-icons a{
+    color: #202125;
+}
+
+.container-proy > .three:hover .link-icons a:hover{
+    color: #4d4f58;
+}
+
+
+.proy-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5em;
+}
+
+.proy-content {
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+}
+.proy-content__container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+
+}
+.proy-content__container:before {
+    content: '[';
+    left: 0;
+}
+
+.proy-content__container:after {
+    content: ']';
+    position: absolute;
+    right: 0;
+}
+
+.proy-content__container:after, .proy-content__container:before {
+    position: absolute;
+    top: 0;
+    color: #73cb00;
+    font-size: 42px;
+    line-height: 40px;
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.proy-content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+  
+@-webkit-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+  
+@-o-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+
+@-moz-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+
+@keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
