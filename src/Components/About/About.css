@@ -4,8 +4,17 @@
     height: auto;
 }
 
+.nav-div-about{
+    left: 0;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    position: fixed;
+}
+
 .padding-div-about{
     padding: 2em;
+    padding-left: 10em;
 }
 
 .aux-div-lpm{

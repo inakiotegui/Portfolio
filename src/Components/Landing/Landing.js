@@ -1,5 +1,4 @@
 import React from 'react';
-//import {Link} from 'react-router-dom';
 import Nav from '../Nav/Nav'
 import './Landing.css'
 
@@ -28,7 +27,3 @@ export const LandingPage = () => {
 };
 
 export default LandingPage;
-            
-/*<Link to='/home'>
-    <button className='btn'>Ingresar</button>
-</Link>*/

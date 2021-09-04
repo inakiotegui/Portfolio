@@ -8,7 +8,7 @@ import Timeline from '../Timeline/Timeline'
 export const About = () => {
 	return (
         <div className='about-div'>
-            <div className='nav-div'>
+            <div className='nav-div-about'>
                 <Nav/>
             </div>
             <div class='padding-div-about'>

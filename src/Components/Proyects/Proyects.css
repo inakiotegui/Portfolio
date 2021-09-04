@@ -22,7 +22,7 @@
 }
 
 .container-proy > div{
-    width: calc(50vw/3);
+    width: calc(50vw/4);
     height: 60vh;
     display: flex;
     flex-grow: 1;
@@ -44,11 +44,12 @@
 
 .hidden-div > p{
     color: transparent;
+    font-size: 1.7vh;
 }
 
 .link-icons{
     color: transparent;
-    font-size: 2rem;
+    font-size: 1.7vw;
 }
 
 .link-icons a{
@@ -74,6 +75,7 @@
 .container-proy > .one:hover{
     flex-grow: 4;
     background-image: url('../../images/proy-1.png');
+    background-size: auto 30vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -97,15 +99,19 @@
 .container-proy > .one:hover .link-icons a{
     color: #202125;
     padding: 1em;
+    transition: 0.3s;
 }
 
 .container-proy > .one:hover .link-icons a:hover{
     color: #4d4f58;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 .container-proy > .two:hover{
     flex-grow: 4;
     background-image: url('../../images/proy-2.png');
+    background-size: auto 30vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -129,16 +135,21 @@
 
 .container-proy > .two:hover .link-icons a{
     color: #000000;
+    padding: 1em;
+    transition: 0.3s;
 }
 
 .container-proy > .two:hover .link-icons a:hover{
     color: #2d2e33;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 
 .container-proy > .three:hover{
     flex-grow: 4;
     background-image: url('../../images/proy-3.png');
+    background-size: auto 30vw;
     background-repeat: no-repeat;
     transition: 0.3s;
 }
@@ -152,19 +163,23 @@
 .container-proy > .three:hover p{
     transform: rotate(0deg);
     transform: scale(1.5);
-    color: #202125;
+    color: #ffcb05;
 }
 
 .container-proy > .three:hover .link-icons{
-    color: #202125;
+    color: #ffcb05;
 }
 
 .container-proy > .three:hover .link-icons a{
-    color: #202125;
+    color: #ffcb05;
+    padding: 1em;
+    transition: 0.3s;
 }
 
 .container-proy > .three:hover .link-icons a:hover{
-    color: #4d4f58;
+    color: #be9c11;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 
