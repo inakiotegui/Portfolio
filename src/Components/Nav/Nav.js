@@ -44,7 +44,7 @@ export default function NavBar() {
                         <FaBriefcase style={iconStyles3}/>
                     </div>
                         <div className="right4 face">
-                            <p>PROYECTS</p>
+                            <p>PROJECTS</p>
                         </div>
                     </NavLink>
                 </div>
